@@ -13,7 +13,7 @@
     "start": "node server.js",
     "lint": "eslint client server || true",
     "deploy": "npm run build && modulus deploy --project-name stripe-demo",
-    "test": "npm run test"
+    "test": "npm run list"
   },
   "repository": {
     "type": "git",
