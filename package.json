@@ -12,7 +12,8 @@
     "build": "npm run clean && npm run build:webpack",
     "start": "node server.js",
     "lint": "eslint client server || true",
-    "deploy": "npm run build && modulus deploy --project-name stripe-demo"
+    "deploy": "npm run build && modulus deploy --project-name stripe-demo",
+    "test": "npm run test"
   },
   "repository": {
     "type": "git",
